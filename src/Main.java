@@ -8,6 +8,8 @@ public class Main {
         employeeSalaryGT.solution(setEmployees());
         System.out.println("*************----------------------------------------------------------------------**************");
         employeeStringCondition.solution(setEmployees());
+        System.out.println("*************----------------------------------------------------------------------**************");
+        employeesDataSorted.solution(list);
 
 //        List<Employee> list1=list.stream()
 //                .filter(Employee -> Employee.getName().startsWith("M"))
