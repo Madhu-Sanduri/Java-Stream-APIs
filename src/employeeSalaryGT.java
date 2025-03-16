@@ -9,5 +9,6 @@ public class employeeSalaryGT {
                 filter(employee -> employee.getSalary()>=25000)
                 .toList()
                 .forEach(System.out::println);
+
     }
 }
